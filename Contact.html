@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ad Re-Culture</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+      .bg-0{
+          background-color: #fff;
+          
+      }
+  .bg-1 { 
+      background-color: #fff; 
+      color: #000;
+  }
+  .bg-2 { 
+      background-color: #4AA94F/*#474e5d*/; 
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; 
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color:     #39713c; 
+  }
+       .bg-5 { 
+      background-color: #000 ; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+      .picMargin{
+          padding:25px;
+          
+      }
+      a{
+          color: white;
+      }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+      input[type=text], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+          color: black;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+      #fname {
+	width: 198px;
+}
+  </style>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-default bg-0">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="html.html">HOME</a></li>
+        <li><a href="html.html#about">ABOUT</a></li>
+        <li><a href="html.html#services">SERVICES</a></li>
+        <li><a href="html.html#team">TEAM</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div id="main"  class="container bg-1 text-center">
+  <img src="images/img2.png" class="img-responsive" style="display:inline" alt="adreculture" width="100">
+</div>
+
+
+    <div class="container-fluid text-center bg-4">
+        <div class="container">
+            <form action="/action_page.php">
+                <br>
+                <input type="text" id="Fname" name="firstname" placeholder="First Name">
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                <br>
+                <input type="text" name="Ph no." id="phno" placeholder="Phone Number" maxlength="13">
+                <input type="text" name="Org" id="org" placeholder="Organisation">
+                <br>
+                <textarea id="subject" name="subject" placeholder="Subject" style="height:200px;width:51%"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+
+<footer class="container-fluid bg-5 text-center">
+    <a href="callto:+91 9663002027"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+    <a href="mailto:Info@Adreculture.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+    <a href="https://www.facebook.com/Ad-Re-culture-1560050280781409/"><i class="fa fa-facebook-official fa-2x"></i></a>
+    <a href="https://www.instagram.com/adreculture/"><i class="fa fa-instagram fa-2x"></i></a>
+    <a href="https://twitter.com/ad_culture?s=09"><i class="fa fa-twitter fa-2x"></i></a>
+    <h6 class="margin">Ad Re-Culture 2018. All Rights Reserved</h4>
+</footer>
+
+</body>
+</html>
